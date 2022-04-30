@@ -1,0 +1,57 @@
+:where(html) {
+  /*
+  COLORS
+  */
+  --primary-25: #fcfaff;
+  --primary-50: #f9f5ff;
+  --primary-100: #f4ebff;
+  --primary-200: #e9d7fe;
+  --primary-300: #d6bbfb;
+  --primary-400: #b692f6;
+  --primary-500: #9e77ed;
+  --primary-600: #7f56d9;
+  --primary-700: #6941c6;
+  --primary-800: #53389e;
+  --primary-900: #42307d;
+
+  --primary-hsl-25: 264, 100%, 99%;
+  --primary-hsl-50: 264, 100%, 98%;
+  --primary-hsl-100: 267, 100%, 96%;
+  --primary-hsl-200: 268, 95%, 92%;
+  --primary-hsl-300: 265, 89%, 86%;
+  --primary-hsl-400: 262, 85%, 77%;
+  --primary-hsl-500: 260, 77%, 70%;
+  --primary-hsl-600: 259, 63%, 59%;
+  --primary-hsl-700: 258, 54%, 52%;
+  --primary-hsl-800: 256, 48%, 42%;
+  --primary-hsl-900: 254, 45%, 34%;
+
+  --gray-25: #fcfcfd;
+  --gray-50: #f9fafb;
+  --gray-100: #f2f4f7;
+  --gray-200: #eaecf0;
+  --gray-300: #d0d5dd;
+  --gray-400: #98a2b3;
+  --gray-500: #667085;
+  --gray-600: #475467;
+  --gray-700: #344054;
+  --gray-800: #1d2939;
+  --gray-900: #101828;
+
+  --gray-hsl-25: 240, 20%, 99%;
+  --gray-hsl-50: 210, 20%, 98%;
+  --gray-hsl-100: 216, 24%, 96%;
+  --gray-hsl-200: 220, 17%, 93%;
+  --gray-hsl-300: 217, 16%, 84%;
+  --gray-hsl-400: 218, 15%, 65%;
+  --gray-hsl-500: 221, 13%, 46%;
+  --gray-hsl-600: 216, 18%, 34%;
+  --gray-hsl-700: 218, 24%, 27%;
+  --gray-hsl-800: 214, 33%, 17%;
+  --gray-hsl-900: 220, 43%, 11%;
+
+  --black: #000000;
+  --white: #ffffff;
+  --black-hsl: 0, 0%, 0%;
+  --white-hsl: 0, 0%, 100%;
+}

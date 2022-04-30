@@ -1,0 +1,49 @@
+:where(html) {
+  /*
+  FONT 
+  */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell",
+    "Noto Sans", sans-serif;
+  --font-serif: "Inter", ui-serif, serif;
+  --font-mono: "Dank Mono", "Operator Mono", "Inconsolata", "Fira Mono", ui-monospace, "SF Mono",
+    "Monaco", "Droid Sans Mono", "Source Code Pro", monospace;
+
+  --font-weight-1: 100;
+  --font-weight-2: 200;
+  --font-weight-3: 300;
+  --font-weight-4: 400;
+  --font-weight-5: 500;
+  --font-weight-6: 600;
+  --font-weight-7: 700;
+  --font-weight-8: 800;
+  --font-weight-9: 900;
+
+  --font-lineheight-0: 1.2; /* 120% */
+  --font-lineheight-1: 1.22; /* 122% */
+  --font-lineheight-2: 1.25; /* 125% */
+  --font-lineheight-3: 1.27; /* 127% */
+  --font-lineheight-4: 1.33; /* 133% */
+  --font-lineheight-5: 1.5; /* 150% */
+  --font-lineheight-6: 1.43; /* 143% */
+  --font-lineheight-7: 1.56; /* 156% */
+
+  --font-letterspacing-1: 0.02em; /*0.02em*/
+
+  --font-text-1: 0.75rem; /* 12px */
+  --font-text-2: 0.875rem; /* 14px */
+  --font-text-3: 1rem; /* 16px */
+  --font-text-4: 1.125rem; /* 18px */
+  --font-text-5: 1.25rem; /* 20px*/
+  --font-display-1: 1.5rem; /* 24px */
+  --font-display-2: 1.875rem; /* 30px */
+  --font-display-3: 2.25rem; /* 36px */
+  --font-display-4: 3rem; /* 48px */
+  --font-display-5: 3.75rem; /* 60px */
+  --font-display-6: 4.5rem; /* 72px */
+
+  /* fluid fonts */
+  --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
+  --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);
+  --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);
+  --font-size-fluid-3: clamp(2rem, 9vw, 3.5rem);
+}

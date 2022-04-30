@@ -1,0 +1,43 @@
+:where(html) {
+  /* 
+    SIZES
+  */
+  --size-000: -0.5rem;
+  --size-00: -0.25rem;
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 1rem;
+  --size-4: 1.25rem;
+  --size-5: 1.5rem;
+  --size-6: 1.75rem;
+  --size-7: 2rem;
+  --size-8: 3rem;
+  --size-9: 4rem;
+  --size-10: 5rem;
+  --size-11: 6rem;
+  --size-12: 7.5rem;
+  --size-13: 8rem;
+  --size-14: 10rem;
+  --size-15: 12rem;
+  --size-16: 14rem;
+  --size-17: 15rem;
+  --size-18: 16rem;
+  --size-19: 20rem;
+  --size-20: 30rem;
+  --size-xxs: 240px;
+
+  /*
+    SIZES
+  */
+  --size-sm: 480px;
+  --size-md: 720px;
+  --size-lg: 1024px;
+
+  // Header height
+  --header-height: 80px;
+}
+
+// 1280px and more -  continer size 1024 hoga
+// 770px and more - 720px
+// 640px hamburger menu appears
+// small - 100%

@@ -1,0 +1,26 @@
+:where(html) {
+  /*
+    GRADIENTS
+  */
+  --gradient-1-primary: linear-gradient(90deg, var(--primary-600) 0%, var(--primary-500) 100%);
+  --gradient-2-primary: linear-gradient(45deg, var(--primary-700) 0%, var(--primary-600) 100%);
+  --gradient-3-primary: linear-gradient(45deg, var(--primary-800) 0%, var(--primary-600) 100%);
+  --gradient-4-primary: linear-gradient(
+    63.44deg,
+    var(--primary-800) 16.72%,
+    var(--primary-600) 83.39%
+  );
+  --gradient-5-primary: linear-gradient(
+    26.57deg,
+    var(--primary-800) 8.33%,
+    var(--primary-700) 91.67%
+  );
+  --gradient-6-primary: linear-gradient(45deg, var(--primary-900) 0%, var(--primary-600) 100%);
+
+  --gradient-1-gray: linear-gradient(90deg, var(--gray-600) 0%, var(--gray-500) 100%);
+  --gradient-2-gray: linear-gradient(45deg, var(--gray-700) 0%, var(--gray-600) 100%);
+  --gradient-3-gray: linear-gradient(45deg, var(--gray-800) 0%, var(--gray-600) 100%);
+  --gradient-4-gray: linear-gradient(63.44deg, var(--gray-800) 16.72%, var(--gray-600) 83.39%);
+  --gradient-5-gray: linear-gradient(26.57deg, var(--gray-800) 8.33%, var(--gray-700) 91.67%);
+  --gradient-6-gray: linear-gradient(45deg, var(--gray-900) 0%, var(--gray-600) 100%);
+}

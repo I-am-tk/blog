@@ -1,0 +1,79 @@
+@use "styles/utils/font" as *;
+.header {
+  // background-color: yellow;
+  // padding-block: var(--size-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+
+  &__controls {
+    display: flex;
+    align-items: center;
+  }
+  &__control {
+    padding: 0;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background-color: transparent;
+  }
+  &__logo {
+    width: 44px;
+  }
+
+  &__icon {
+    width: 24px;
+    color: var(--gray-900);
+  }
+  &__hamburger {
+    width: 32px;
+    color: var(--gray-900);
+  }
+  &__nav {
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--gray-100);
+    padding: var(--size-4) 1rem;
+
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.75s, opacity 0.75s;
+
+    &--open {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    &-link {
+      text-decoration: none;
+      color: var(--gray-700);
+      @include text-lg;
+      font-weight: var(--font-weight-7);
+      padding: var(--size-1) var(--size-3);
+      display: block;
+      border-left: 3px solid var(--gray-200);
+      text-transform: capitalize;
+
+      &--active {
+        border-color: var(--primary-600);
+        color: var(--primary-600);
+      }
+    }
+  }
+
+  &__primary-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3);
+  }
+}

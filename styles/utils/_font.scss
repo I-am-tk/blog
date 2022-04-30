@@ -1,0 +1,51 @@
+@mixin text-xs {
+  font-size: var(--font-text-1);
+  line-height: var(--font-lineheight-5);
+}
+@mixin text-sm {
+  font-size: var(--font-text-2);
+  line-height: var(--font-lineheight-6);
+}
+@mixin text-md {
+  font-size: var(--font-text-3);
+  line-height: var(--font-lineheight-5);
+}
+@mixin text-lg {
+  font-size: var(--font-text-4);
+  line-height: var(--font-lineheight-7);
+}
+@mixin text-xl {
+  font-size: var(--font-text-5);
+  line-height: var(--font-lineheight-5);
+}
+
+@mixin display-xs {
+  font-size: var(--font-display-1);
+  line-height: var(--font-lineheight-4);
+  letter-spacing: normal;
+}
+@mixin display-sm {
+  font-size: var(--font-display-2);
+  line-height: var(--font-lineheight-3);
+  letter-spacing: normal;
+}
+@mixin display-md {
+  font-size: var(--font-display-3);
+  line-height: var(--font-lineheight-1);
+  letter-spacing: var(var(--font-letterspacing-1));
+}
+@mixin display-lg {
+  font-size: var(--font-display-4);
+  line-height: var(--font-lineheight-2);
+  letter-spacing: var(var(--font-letterspacing-1));
+}
+@mixin display-xl {
+  font-size: var(--font-display-5);
+  line-height: var(--font-lineheight-0);
+  letter-spacing: var(var(--font-letterspacing-1));
+}
+@mixin display-2xl {
+  font-size: var(--font-display-6);
+  line-height: var(--font-lineheight-2);
+  letter-spacing: var(var(--font-letterspacing-1));
+}
